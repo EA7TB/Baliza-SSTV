@@ -1,9 +1,0 @@
-Generador de video compuesto
-Para este cometido usaremos Rasspberry pi que posee una salida de video compuesto,
-existen programas para generar la carta de ajuste con el texto que queramos, 
-(consultar la página de EA3UM , en la cual te facilitan el programa y la forma de modificarlo para el texto).
-Ni que decir tiene que este generador tendrá que estar protegido contra el calor por la cantidad de horas de funcionamiento 
-con refrigeradores y ventiladores.
-Se intercalara un distribuidor de video a su salida para monitorizar la señal generada
-Teeiene un el boot el arrnca del quenerador de video.
-La Raspberry, tambien controlara la temperatura y los posibles aviso y alarmas que configuraremos para la supervision del sistema.
