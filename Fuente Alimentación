@@ -1,0 +1,6 @@
+Para la fuente de alimentacion, usaremos una fuente de alimentacion de un PC.
+Debemos unir el cable verde (PS-ON) con uno negro(GND).
+Los 12V estan en el cable amarillo.
+Los 5V estan en el cable Rojo
+
+Los 5V, los necesitamos para la Raspberry y los 12V para el video sender y el amplificador WIFI.
