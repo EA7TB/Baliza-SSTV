@@ -1,0 +1,23 @@
+Actualizamos el sistema
+
+sudo apt-get update
+sudo apt-get update -y
+
+Instalamos fbi
+
+sudo apt-get install fbi -y
+
+Creamos un scrip llamado atv-generator.sh en  /root
+
+sudo nano /root/atv-generator.sh
+
+en el ponemos las siguientes lineas
+
+#!/bin/bash
+/usr/bin/fbi --noverbose -d /dev/fb0 -a /root/pantalla_prueba.jpg
+
+Editamos el fichero /etc/rc.local
+Colocamos la linea 
+/bin/bash /root/atv-generator.sh
+antes de exit 0
+Con esto arrancamos el scrip atv-generator.sh cuando se inicie la Raspberry.
